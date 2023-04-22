@@ -16,283 +16,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"
     defer></script>
-
-  <style>
-    .color {
-      color: #ff490d !important;
-    }
-
-    .size {
-      font-size: calc(1.2rem + 0.5vw) !important;
-    }
-
-    .text {
-      font-size: calc(0.8rem + 0.5vw);
-    }
-
-    .bg {
-      background-color: #FFFAF5;
-    }
-
-    .partner-p {
-      font-size: 25px;
-    }
-
-    /*--------Grid--------*/
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      column-gap: 100px;
-      row-gap: 100px;
-      margin-top: -150px;
-      line-height: 1.5;
-      text-align: center;
-    }
-
-    #grid2 {
-      margin-top: -300px;
-    }
-
-    .grid-p {
-      color: red;
-      margin-bottom: 10px;
-    }
-
-    .grid2-img {
-      width: 40%;
-      margin-bottom: 30px;
-    }
-
-    .grid-container {
-      text-align: center;
-      width: 80%;
-      margin: auto;
-    }
-
-    .grid-container button {
-      width: 250px;
-      height: 50px;
-      border-radius: 20px;
-      color: #fff;
-      border: 1px solid rgb(248, 78, 26);
-      background-color: rgb(248, 78, 26);
-      margin-top: 40px;
-
-    }
-
-    .about-grid {
-      display: flex;
-      justify-content: space-between;
-      background-color: #FFFAF5;
-    }
-
-    .about-grid {
-      width: 100%;
-      height: 100vh;
-    }
-
-    .about-grid h1 {
-      margin-bottom: 20px;
-      font-size: 35px;
-    }
-
-    .about-grid p {
-      line-height: 2;
-    }
-
-    .about-text {
-      height: 50%;
-      margin: auto 0;
-      padding-left: 10vw;
-    }
-
-    .about-image{
-      width: 50%;
-      height: 50%;
-    }
-
-    .about-img{
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    /*--------partner--------*/
-    .partner {
-      height: 60vh;
-      text-align: center;
-      margin-left: 350px;
-      margin-right: 350px;
-      margin-top: 15vh;
-      margin-bottom: 300px;
-    }
-
-    .about-img {
-      height: 80vh;
-      width: 80%;
-    }
-
-    .partner button {
-      width: 250px;
-      height: 50px;
-      border-radius: 20px;
-      color: red;
-      border: 1px solid red;
-    }
-
-    #know-us {
-      border: none;
-      color: rgb(248, 78, 26);
-      background-color: beige;
-    }
-
-    .btn {
-      border-radius: 50%;
-      padding: 1rem;
-      width: 20px;
-      height: 20px;
-      color: rgb(248, 78, 26);
-      border: 1px solid;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-right: 1rem;
-    }
-
-    .about-text p{
-      display: flex;
-      align-items: center;
-    }
-
-    .about-text h2, 
-    .who-we-partner, 
-    .who-we-are{
-      position: relative;
-      padding-bottom: 1rem;
-    }
-
-    .about-text h2::before, 
-    .who-we-partner::before,
-    .who-we-are::before{
-      content: "";
-        width: 10rem;
-        height: 0.2rem;
-        background-color:#ff490d;
-        position: absolute;
-        bottom: 0;
-        transform-origin: center;
-      }
-
-      .who-we-partner::before{
-        width: 20rem;
-      }
-
-    #tour-button {
-
-      width: 250px;
-      height: 50px;
-      border-radius: 20px;
-      color: #fff;
-      border: 1px solid red;
-      background-color: rgb(248, 78, 26);
-    }
-
-    @media (min-width: 360px) and (max-width: 700px) {
-
-      /*--------partner--------*/
-      .partner {
-        height: 100vh;
-        text-align: center;
-        margin: auto;
-        margin-top: 5vh;
-      }
-
-      .partner button {
-        width: 250px;
-        height: 50px;
-        border-radius: 20px;
-        color: red;
-        border: 1px solid red;
-      }
-
-      /*--------Grid--------*/
-      .grid {
-        display: block;
-        margin-top: 0px;
-        margin-left: 50px;
-        margin-right: 50px;
-        line-height: 1.5;
-        text-align: center;
-      }
-
-      .last-p {
-        margin-bottom: 50px;
-      }
-
-      #grid2 {
-        margin-top: -300px;
-      }
-
-      .grid-p {
-        color: red;
-        margin-bottom: 10px;
-      }
-
-      .grid p {
-        margin-left: 80px;
-        margin-right: 80px;
-      }
-
-      .about-grid {
-        column-gap: 0px;
-        padding-left: 40px;
-      }
-
-      .about-grid {
-        width: 100%;
-        height: 100vh;
-      }
-
-      .about-grid h1 {
-        margin-bottom: 20px;
-        font-size: 35px;
-      }
-
-      .about-grid p {
-        line-height: 1;
-      }
-
-      .about-text {
-        margin-right: 0px;
-      }
-
-      .about-img {
-        height: 80vh;
-        width: 400px;
-      }
-    }
-
-    @media (min-width: 701px) and (max-width: 1100px) {
-
-      /*--------partner--------*/
-      .partner {
-        height: 100vh;
-        text-align: center;
-        margin: auto;
-        margin-left: 150px;
-        margin-right: 150px;
-      }
-
-      .partner button {
-        width: 250px;
-        height: 50px;
-        border-radius: 20px;
-        color: red;
-        border: 1px solid red;
-      }
-
-    }
-  </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="vh-100 vw-100 overflow-x-hidden">
@@ -418,6 +142,55 @@
       </div>
   </section>
 
+  <section>
+        <!----What we offer------>
+    <div id="offer">
+      <h5> What we offer</h5>
+  </div>
+  <div id="offer2">
+      Cook Collective has 8 <br/> customizable preparation <br/> stations, fully licenced and <br/> equipped.
+  </div>
+  <div id="offer3">
+      We offer Station Rentals and <br/> monthly storage options for dry, cold and <br/> by the shift and frozen items.
+  </div>
+  <div id="offer4">
+      7.5 hour Shifts: AM Shift [8:00AM - 3:30PM] <br/> PM Shift [4:00PM-11:30PM] Overnight Shift <br/> [12Am-7:30AM]
+  </div>
+  <div>
+      <p> Our stations are ample, refrigerated and have <br/> plenty of storage.</p> <p> Memberships start as low as 2 shifts per <br/> month.</p>
+  </div>
+  <div>
+      <p>Choose a plan from 1 to 7 shifts a week. Prices <br/> start from $195 per shift.</p>
+  </div>
+  <div id="button">
+  <button> Inquire about special arrangements</button>
+  </div>
+  <div class="infrastructure"> 
+      <p> Infrastructure</p>
+  </div>
+  <div id="prep">
+      <p> 8 prep stations <br/> Ample dry/cold/freeze storage <br/> Deliver zone <br/> Extraction & ventilation <br/> Ansure fire suppression system <br/> 1 hand wash sink x station <br/> In progress dediction refrigeration units in <br/> every station. <br/> Stainless steel work tables x station <br/> Wi-fi zone</p>
+  </div>
+  <div class="image">
+      <img src="equi.PNG" alt="equipment"/>
+  </div>
+  <div id="Equip">
+      <p>Equipment</p>
+  </div>
+  <div id="doyon">
+      <span> Doyon revolving rack oven <br/> Dough sheeter <br/> Double door proofer <br/> Electric smoker <br/> Fryers, including a large donut fryer <br/> 7 convention ovens <br/> Three 6 burner ranges <br/> 2 stock pot burners <br/> 8 - 60qt mixers <br/> Commerciall Robot Coupes <br/> Ice cream machine <br/> Ice makers </span>
+  </div>
+  <div class="service">
+      <p>Services</p>
+  </div>
+  <div id="clean">
+      <p> Cleaning services <br/> Linen services <br/> Janitorial supplies <br/> Chemical supplies <br/> Free Wi-Fi <br/> Helpful staff <br/> Waste & Recycling services</p>
+  </div>
+  <div class="buttonn">
+      <button> Need more info? Reach out!</button>
+  </div>
+  </section>
+  
   <section>
     <!----Who do we partner------>
     <div class="partner">
