@@ -310,3 +310,30 @@
     }
 
   }
+
+  footer{
+    text-align: left;
+    background-color: black;
+    color: white;
+    text-decoration-line: orangered;
+    padding: 50px 50px 50px 50px;
+    margin: auto;
+  }
+  .underline{
+    color: orangered;
+  }
+  .container {
+  display: flex;
+  flex-direction: row-reverse;
+  }
+.container > .image {
+  flex: 1 0 0%;
+}
+.image > img {
+  display: block;
+  max-width: 50%;
+  max-height: 400px;
+}
+.container > .text {
+  flex: 2 0 0%;
+}
