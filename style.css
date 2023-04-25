@@ -1,374 +1,311 @@
-.section { color: black; background-color: black; background: black; enable-background: 50;
-} 
-/* h1 {color: red; text-align: center; font-size: 3rem; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} */
-
-.section2 { color: red; text-align: center; font-size: 1rem; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.color {
+  color: #ff490d !important;
 }
-/* h4 {color: red; text-align: center;} */
-#contact {
-    color: black; margin: 2%; border: sandybrown; text-decoration: underline; 
+.size {
+  font-size: calc(1.2rem + 0.5vw) !important;
 }
-#offer {
-    text-decoration: underline; text-align: center; font-size: 1.5rem; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+.text {
+  font-size: calc(0.8rem + 0.5vw);
 }
-#offer2, #offer3, #offer4, .image {
-    text-align: center;
-}
-.infrastructure {
-  text-align: center; color: red; font-size: 1.4rem; font-family: fantasy; 
-}
-#prep {
-    text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#Equip {
-    text-align: center; color: red; font-size: 1.4rem; font-family: fantasy;
-}
-#doyon {
-    text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.service {
-    text-align: center; color: red; font-size: 1.4rem; font-family: fantasy;
-}
-#clean {
-    text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.buttonn {
-    text-align: center; outline-color: red; color: red;
+.bg {
+  background-color: #fffaf5;
 }
 
-.color{color: #ff490d !important;}
-    .size{font-size: calc(1.2rem + 0.5vw) !important;}
-    .text{font-size: calc(0.8rem + 0.5vw);}
-    .bg{background-color:#FFFAF5;}
-    @media (min-width: 1101px) and (max-width: 1400px){
-    .who-we-partner{ 
-            border-bottom: 1px solid red;
-            font-size: 30px;
-          } 
-          .partner-p{
-            font-size: 25px;
-          }
-          /*--------Grid--------*/
-          .grid{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 100px;
-            row-gap: 100px;
-            margin-top: -150px;
-            line-height: 1.5;
-            text-align: center;
-          }
-          #grid2{
-            margin-top: -300px;
-          }
-          .grid-p{
-            color: red;
-            margin-bottom: 10px;
-          }
-          .grid2-img{
-            width: 40%;
-            margin-bottom: 30px;
-          }
-          .grid-container{
-            text-align: center;
-          }
-          .grid-container button{
-            width: 250px;
-            height: 50px;
-            border-radius: 20px;
-            color: #fff;
-            border: 1px solid rgb(248, 78, 26);
-            background-color: rgb(248, 78, 26);
-            margin-top: 40px;
-            
-          }
-          
-          .about-grid{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            column-gap: 10px;
-            padding-left: 80px;
-            background-color: floralwhite;
-            padding-top: 80px;
-          }
-          
-          .about-grid {
-            width: 100%;
-            height: 100vh;
-          }
-          .about-grid h1{
-            margin-bottom: 20px;
-            font-size: 35px;
-          }
-          .about-grid p{
-            line-height: 2;
-          }
-          .about-text{
-            margin-right: 50px;
-          }
-          /*--------partner--------*/
-          .partner{
-            height: 60vh;
-            text-align: center;
-            margin-left: 350px;
-            margin-right: 350px;
-            margin-top: 0px;
-            margin-bottom: 300px;
-          }
-          .about-img{
-            height: 80vh;
-            width: 80%;
-          }
-          
-          .partner button{
-            width: 250px;
-            height: 50px;
-            border-radius: 20px;
-            color: red;
-            border: 1px solid red;
-          }
-          #know-us{
-            border: none;
-            color: rgb(248, 78, 26);
-            background-color: #fff;
-          }
-          .btn{
-            border-radius: 10px;
-            width: 20px;
-            color: rgb(248, 78, 26);
-            border: 1px solid
-          }
-          #tour-button{
-            
-              width: 250px;
-              height: 50px;
-              border-radius: 20px;
-              color: #fff;
-              border: 1px solid red;
-              background-color: rgb(248, 78, 26);
-            }
-          }
-            @media (min-width: 360px) and (max-width: 700px){
-          /*--------partner--------*/
-          .who-we-partner{ 
-            border-bottom: 1px solid red;
-            font-size: 30px;
-          } 
-          .partner-p{
-            font-size: 25px;
-          }
-          .partner{
-            height: 100vh;
-            text-align: center;
-            margin: auto;
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-top: 50px;
-          }
-          
-          .partner button{
-            width: 250px;
-            height: 50px;
-            border-radius: 20px;
-            color: red;
-            border: 1px solid red;
-          }
-          /*--------Grid--------*/
-          .grid{
-            display: block;
-            margin-top: 0px;
-            margin-left: 50px;
-            margin-right: 50px;
-            line-height: 1.5;
-            text-align: center;
-          }
-          .last-p{
-            margin-bottom: 50px;
-          }
-          #grid2{
-            margin-top: -300px;
-          }
-          .grid-container{
-            text-align: center;
-          }
-          .grid-p{
-            color: red;
-            margin-bottom: 10px;
-          }
-          .grid p{
-            margin-left: 80px;
-            margin-right: 80px;
-          }
-          .grid2-img{
-            width: 40%;
-            margin-bottom: 30px;
-          }
-          .about-grid{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            column-gap: 0px;
-            padding-left: 70px;
-            background-color: floralwhite;
-            padding-top: 30px;
-            width: 100%;
-            height: 100vh;
-          }
-          .about-grid h1{
-            margin-bottom: 20px;
-            font-size: 35px;
-          }
-          .about-grid p{
-            line-height: 1;
-          }
-          .about-text{
-            margin-right: 0px;
-          }
-          .about-img{
-            height: 80vh;
-            width: 400px;
-          }
-          #know-us{
-            border: none;
-            color: rgb(248, 78, 26);
-            background-color: #fff;
-            margin-top: 50px;
-          }
-          .btn{
-            border-radius: 10px;
-            width: 20px;
-            color: rgb(248, 78, 26);
-            border: 1px solid
-          }
-          #tour-button{
-            
-              width: 250px;
-              height: 50px;
-              border-radius: 20px;
-              color: #fff;
-              border: 1px solid red;
-              background-color: rgb(248, 78, 26);
-            }
-          
-          }
-        
-          @media (min-width: 701px) and (max-width: 1100px){
-           
-          .grid{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 100px;
-            row-gap: 100px;
-            margin-top: -150px;
-            line-height: 1.5;
-            text-align: center;
-          }
-          #grid2{
-            margin-top: -300px;
-          }
-          .grid-p{
-            color: red;
-            margin-bottom: 10px;
-          }
-          .grid2-img{
-            width: 40%;
-            margin-bottom: 30px;
-          }
-          .grid-container{
-            text-align: center;
-          }
-          .grid-container button{
-            width: 250px;
-            height: 50px;
-            border-radius: 20px;
-            color: #fff;
-            border: 1px solid rgb(248, 78, 26);
-            background-color: rgb(248, 78, 26);
-            margin-top: 40px;
-            
-          }
-          
-          .about-grid{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            column-gap: 10px;
-            padding-left: 80px;
-            background-color: floralwhite;
-            padding-top: 80px;
-          }
-          
-          .about-grid {
-            width: 100%;
-            height: 100vh;
-          }
-          .about-grid h1{
-            margin-bottom: 20px;
-            font-size: 35px;
-          }
-          .about-grid p{
-            line-height: 2;
-          }
-          .about-text{
-            margin-right: 50px;
-          }
-          /*--------partner--------*/
-          .who-we-partner{ 
-            border-bottom: 1px solid red;
-            font-size: 30px;
-          } 
-          .partner-p{
-            font-size: 25px;
-          }
-          .partner{
-            height: 100vh;
-            text-align: center;
-            margin-left: 150px;
-            margin-right: 150px;
-            margin-top: 50px;
-            margin-bottom: 80px;
-          }
-          .about-img{
-            height: 80vh;
-            width: 80%;
-          }
-          
-          .partner button{
-            width: 250px;
-            height: 50px;
-            border-radius: 20px;
-            color: red;
-            border: 1px solid red;
-          }
-          #know-us{
-            border: none;
-            color: rgb(248, 78, 26);
-            background-color: #fff ;
-          }
-          .btn{
-            border-radius: 10px;
-            width: 20px;
-            color: rgb(248, 78, 26);
-            border: 1px solid
-          }
-          #tour-button{
-            
-              width: 250px;
-              height: 50px;
-              border-radius: 20px;
-              color: #fff;
-              border: 1px solid red;
-              background-color: rgb(248, 78, 26);
-            }
-          
-          }
+.who-we-are,
+.what-we-offer,
+.who-we-partner{
+  border-bottom: 2px solid #ff490d;
+  width: 13rem;
+  text-align: center;
+  margin: 0 auto;
+}
 
-  footer{
-    text-align: left;
-    background-color: black;
-    color: white;
-    text-decoration-line: orangered;
-    padding: 50px 50px 50px 50px;
+.who-we-are{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.who-we-partner{
+  width: 20rem;
+}
+
+.icon{
+  bottom: -4rem;
+}
+
+.offer {
+  height: 100%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 300px;
+}
+.what-we-offer {
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.first-offer-p {
+  font-size: 20px;
+}
+.offer span {
+  color: red;
+}
+.offer button {
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  color: red;
+  border: 1px solid red;
+}
+
+/*--------Grid--------*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  row-gap: 100px;
+  margin-top: -150px;
+  line-height: 1.5;
+  text-align: center;
+}
+#grid2 {
+  margin-top: -300px;
+}
+.grid-p {
+  color: red;
+  margin-bottom: 10px;
+}
+.grid2-img {
+  width: 40%;
+  margin-bottom: 30px;
+}
+.grid-container {
+  text-align: center;
+}
+.grid-container button {
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  color: #fff;
+  border: 1px solid rgb(248, 78, 26);
+  background-color: rgb(248, 78, 26);
+  margin-top: 40px;
+}
+.Banner {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url("https://cdn.pixabay.com/photo/2017/12/13/16/40/background-3017167__340.jpg");
+  height: 50%;
+  color: rgb(248, 78, 26);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.banner-content {
+  padding-top: 60px;
+  text-align: center;
+}
+
+/*--------About-grid--------*/
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  padding-left: 80px;
+  background-color: floralwhite;
+  padding-top: 80px;
+}
+
+.about-grid {
+  width: 100%;
+  height: 100%;
+}
+.about-grid h1 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.about-grid p {
+  line-height: 2;
+}
+.about-text {
+  margin-right: 50px;
+}
+/*--------partner--------*/
+.partner {
+  height: 80%;
+  text-align: center;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-top: 0px;
+  margin-bottom: 400px;
+}
+.partner-pp {
+  font-size: 25px;
+}
+.about-img {
+  height: 80%;
+  width: 80%;
+}
+.partner span {
+  color: red;
+}
+.partner button {
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  color: red;
+  border: 1px solid red;
+}
+#know-us {
+  border: none;
+  color: rgb(248, 78, 26);
+  background-color: #fff;
+}
+.btn {
+  border-radius: 10px;
+  width: 20px;
+  color: rgb(248, 78, 26);
+  border: 1px solid;
+}
+#tour-button {
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  color: #fff;
+  border: 1px solid red;
+  background-color: rgb(248, 78, 26);
+}
+@media (min-width: 360px) and (max-width: 900px) {
+  .offer {
+    height: 100%;
     margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
   }
-  .underline{
-    color: orangered;
+  .offer-writeup {
+    margin-left: 50px;
+    margin-right: 50px;
   }
+  .who-we-are {
+    border-bottom: 1px solid red;
+    font-size: 30px;
+  }
+  .offer span {
+    color: red;
+  }
+
+  /*--------Grid--------*/
+  .grid {
+    display: block;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .last-p {
+    margin-bottom: 50px;
+  }
+  #grid2 {
+    margin-top: -300px;
+  }
+  .grid-p {
+    color: red;
+    margin-bottom: 10px;
+  }
+
+  .Banner {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/13/16/40/background-3017167__340.jpg");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .banner-content {
+    padding-top: 60px;
+    text-align: center;
+  }
+  .banner-content img {
+    width: 90%;
+  }
+
+  /*--------partner--------*/
+  .partner {
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 400px;
+  }
+  .partner span {
+    color: red;
+  }
+  .partner button {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    color: red;
+    border: 1px solid red;
+  }
+
+  /*--------About-grid--------*/
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    padding-left: 40px;
+    background-color: floralwhite;
+    padding-top: 80px;
+  }
+
+  .about-grid {
+    width: 100%;
+    height: 100%;
+  }
+  .about-grid h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+  .about-grid p {
+    line-height: 2;
+  }
+  .about-text {
+    margin-right: 50px;
+  }
+  .about-img {
+    height: 80%;
+    width: 400px;
+  }
+  #know-us {
+    border: none;
+    color: rgb(248, 78, 26);
+    background-color: #fff;
+  }
+  .btn {
+    border-radius: 10px;
+    width: 20px;
+    color: rgb(248, 78, 26);
+    border: 1px solid;
+  }
+  #tour-button {
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid red;
+    background-color: rgb(248, 78, 26);
+  }
+}
+
+footer {
+  text-align: left;
+  background-color: black;
+  color: white;
+  text-decoration-line: orangered;
+  padding: 50px 50px 50px 50px;
+  margin: auto;
+}
+.underline {
+  color: orangered;
+}
