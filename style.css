@@ -56,8 +56,30 @@
     font-size: 25px;
   }
 
+  /*--------Offer--------*/
+  .offer{
+    height: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 300px;
+  }
+  .what-we-offer{ 
+    border-bottom: 1px solid red;
+    font-size: 30px;
+  }
+  .offer span{
+    color: red;
+  }
+  .offer button{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    color: red;
+    border: 1px solid red;
+  }
+  
   /*--------Grid--------*/
-  .grid {
+  .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 100px;
@@ -66,28 +88,21 @@
     line-height: 1.5;
     text-align: center;
   }
-
-  #grid2 {
+  #grid2{
     margin-top: -300px;
   }
-
-  .grid-p {
+  .grid-p{
     color: red;
     margin-bottom: 10px;
   }
-
-  .grid2-img {
+  .grid2-img{
     width: 40%;
     margin-bottom: 30px;
   }
-
-  .grid-container {
+  .grid-container{
     text-align: center;
-    width: 80%;
-    margin: auto;
   }
-
-  .grid-container button {
+  .grid-container button{
     width: 250px;
     height: 50px;
     border-radius: 20px;
@@ -95,218 +110,223 @@
     border: 1px solid rgb(248, 78, 26);
     background-color: rgb(248, 78, 26);
     margin-top: 40px;
+    
+  }
+  .Banner{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/12/13/16/40/background-3017167__340.jpg');
+    height: 50%;
+    color: rgb(248, 78, 26);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .banner-content{
+    padding-top: 60px;
+    text-align: center;
 
   }
 
-  .about-grid {
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFFAF5;
+  /*--------About-grid--------*/
+  .about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    padding-left: 80px;
+    background-color: floralwhite;
+    padding-top: 80px;
   }
-
+  
   .about-grid {
     width: 100%;
-    height: 100vh;
+    height: 100%;
   }
-
-  .about-grid h1 {
+  .about-grid h1{
     margin-bottom: 20px;
     font-size: 35px;
   }
-
-  .about-grid p {
+  .about-grid p{
     line-height: 2;
   }
-
-  .about-text {
-    height: 50%;
-    margin: auto 0;
-    padding-left: 10vw;
+  .about-text{
+    margin-right: 50px;
   }
-
-  .about-image{
-    width: 50%;
-    height: 50%;
-  }
-
-  .about-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
   /*--------partner--------*/
-  .partner {
-    height: 60vh;
+  .partner{
+    height: 80%;
     text-align: center;
     margin-left: 350px;
     margin-right: 350px;
-    margin-top: 15vh;
-    margin-bottom: 300px;
+    margin-top: 0px;
+    margin-bottom: 400px;
   }
-
-  .about-img {
-    height: 80vh;
+  .partner-pp{
+    font-size: 25px;
+  }
+  .about-img{
+    height: 80%;
     width: 80%;
   }
-
-  .partner button {
+  .partner span{
+    color: red;
+  }
+  .partner button{
     width: 250px;
     height: 50px;
     border-radius: 20px;
     color: red;
     border: 1px solid red;
   }
-
-  #know-us {
+  #know-us{
     border: none;
     color: rgb(248, 78, 26);
-    background-color: beige;
+    background-color: beige ;
   }
-
-  .btn {
-    border-radius: 50%;
-    padding: 1rem;
+  .btn{
+    border-radius: 10px;
     width: 20px;
-    height: 20px;
     color: rgb(248, 78, 26);
-    border: 1px solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 1rem;
+    border: 1px solid
   }
-
-  .about-text p{
-    display: flex;
-    align-items: center;
-  }
-
-  .about-text h2, 
-  .who-we-partner, 
-  .who-we-are{
-    position: relative;
-    padding-bottom: 1rem;
-  }
-
-  .about-text h2::before, 
-  .who-we-partner::before,
-  .who-we-are::before{
-    content: "";
-      width: 10rem;
-      height: 0.2rem;
-      background-color:#ff490d;
-      position: absolute;
-      bottom: 0;
-      transform-origin: center;
+  #tour-button{
+      width: 250px;
+      height: 50px;
+      border-radius: 20px;
+      color: #fff;
+      border: 1px solid red;
+      background-color: rgb(248, 78, 26);
     }
-
-    .who-we-partner::before{
-      width: 20rem;
-    }
-
-  #tour-button {
-
+    @media (min-width: 360px) and (max-width: 900px){
+    .offer{
+    height: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .offer-writeup{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .who-we-are{ 
+    border-bottom: 1px solid red;
+    font-size: 30px;
+  }
+  .offer span{
+    color: red;
+  }
+  .offer button{
     width: 250px;
     height: 50px;
     border-radius: 20px;
-    color: #fff;
+    color: red;
     border: 1px solid red;
-    background-color: rgb(248, 78, 26);
+  }
+  
+  /*--------Grid--------*/
+  .grid{
+    display: block;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .last-p{
+    margin-bottom: 50px;
+  }
+  #grid2{
+    margin-top: -300px;
+  }
+  .grid-p{
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  
+  .Banner{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/12/13/16/40/background-3017167__340.jpg');
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .banner-content{
+    padding-top: 60px;
+    text-align: center;
+    
+  }
+  .banner-content img{
+    width: 90%;
   }
 
-  @media (min-width: 360px) and (max-width: 700px) {
-
-    /*--------partner--------*/
-    .partner {
-      height: 100vh;
-      text-align: center;
-      margin: auto;
-      margin-top: 5vh;
-    }
-
-    .partner button {
+  
+  /*--------partner--------*/
+  .partner{
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 400px;
+  }
+  .partner span{
+    color: red;
+  }
+  .partner button{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    color: red;
+    border: 1px solid red;
+  }
+  
+  /*--------About-grid--------*/
+  .about-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0px;
+    padding-left: 40px;
+    background-color: floralwhite;
+    padding-top: 80px;
+  }
+  
+  .about-grid {
+    width: 100%;
+    height: 100%;
+  }
+  .about-grid h1{
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+  .about-grid p{
+    line-height: 2;
+  }
+  .about-text{
+    margin-right: 50px;
+  }
+  .about-img{
+    height: 80%;
+    width: 400px;
+  }
+  #know-us{
+    border: none;
+    color: rgb(248, 78, 26);
+    background-color: #fff;
+  }
+  .btn{
+    border-radius: 10px;
+    width: 20px;
+    color: rgb(248, 78, 26);
+    border: 1px solid
+  }
+  #tour-button{
+    
       width: 250px;
       height: 50px;
       border-radius: 20px;
-      color: red;
+      color: #fff;
       border: 1px solid red;
+      background-color: rgb(248, 78, 26);
     }
-
-    /*--------Grid--------*/
-    .grid {
-      display: block;
-      margin-top: 0px;
-      margin-left: 50px;
-      margin-right: 50px;
-      line-height: 1.5;
-      text-align: center;
-    }
-
-    .last-p {
-      margin-bottom: 50px;
-    }
-
-    #grid2 {
-      margin-top: -300px;
-    }
-
-    .grid-p {
-      color: red;
-      margin-bottom: 10px;
-    }
-
-    .grid p {
-      margin-left: 80px;
-      margin-right: 80px;
-    }
-
-    .about-grid {
-      column-gap: 0px;
-      padding-left: 40px;
-    }
-
-    .about-grid {
-      width: 100%;
-      height: 100vh;
-    }
-
-    .about-grid h1 {
-      margin-bottom: 20px;
-      font-size: 35px;
-    }
-
-    .about-grid p {
-      line-height: 1;
-    }
-
-    .about-text {
-      margin-right: 0px;
-    }
-
-    .about-img {
-      height: 80vh;
-      width: 400px;
-    }
-  }
-
-  @media (min-width: 701px) and (max-width: 1100px) {
-
-    /*--------partner--------*/
-    .partner {
-      height: 100vh;
-      text-align: center;
-      margin: auto;
-      margin-left: 150px;
-      margin-right: 150px;
-    }
-
-    .partner button {
-      width: 250px;
-      height: 50px;
-      border-radius: 20px;
-      color: red;
-      border: 1px solid red;
-    }
-
   }
